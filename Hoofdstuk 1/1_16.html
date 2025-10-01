@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Attribuut selectors </title>
+    <link rel="stylesheet" href="css/1_16.css">
+</head>
+<body>
+    <h1>CSS Attribute Selectors</h1>
+
+    <h2>Select met multiple</h2>
+    <p>Deze select heeft <code>multiple</code> en krijgt dus een andere stijl:</p>
+    <select multiple>
+        <option>Optie 1</option>
+        <option>Optie 2</option>
+        <option>Optie 3</option>
+    </select>
+    <br><br>
+    <select>
+        <option>Enkelvoudige select (geen multiple → geen styling)</option>
+    </select>
+
+    <h2>Input type="button"</h2>
+    <input type="button" value="Klik hier">
+    <input type="text" placeholder="Gewone text input">
+
+    <h2>Link met title dat 'flower' bevat</h2>
+    <a href="#" title="red-flower">Bekijk rode bloem</a><br>
+    <a href="#" title="sunshine">Deze heeft geen 'flower' in title</a>
+
+    <h2>Afbeeldingen met src die begint met https://</h2>
+    <img src="https://via.placeholder.com/100" alt="Beveiligd via https"><br>
+    <img src="http://via.placeholder.com/100" alt="Onveilig via http">
+
+    <h2>Links die eindigen op .pdf</h2>
+    <a href="document.pdf">Download handleiding</a><br>
+    <a href="pagina.html">Gewone webpagina</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@media all {
+    /* geldige CSS-regels voor alle toestellen) */
+}
+@media print {
+    /* CSS-regels voor printers */
+}
+@media screen {
+    /* CSS-regels voor schermen */
+}
+@media print and (min-resolution: 300dpi) {
+    /* CSS-regels voor printers met een minimale resolutie van 300dpi */
+}
+@media (min-width: 300px) and (max-width: 1200px) {
+    /* CSS-regels voor breedtes tussen 300px en 1200px */
+}
+@media screen and (orientation: portrait) {
+    /* CSS-regels voor rechtop staande schermen */
+}
+@media screen and (min-aspect-ratio: 16/9) {
+    /* CSS-regels voor brede schermen, minimaal 16/9 */
+}

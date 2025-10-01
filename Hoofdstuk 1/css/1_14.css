@@ -1,0 +1,24 @@
+/* Pseudo-element: eerste letter link */
+a::first-letter {
+    font-size: 150%;
+    color: purple;
+}
+
+/* Pseudo-element: selectie */
+::selection {
+    background: black;
+    color: lime;
+}
+
+li {
+    list-style: none;
+    /* verwijder standaardbullets */
+}
+
+/* Pseudo-element: voor en na lijstitems */
+li::before {
+    content: "👉 ";
+}
+li::after {
+    content: " 👈";
+}

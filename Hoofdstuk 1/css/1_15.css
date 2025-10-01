@@ -1,0 +1,31 @@
+/* h1 + p: selecteert enkel de paragraaf direct na een h1 */
+h1 + p {
+    color: darkred;
+    background-color: #ffe0e0;
+    padding: 5px;
+}
+
+/* li:first-child: selecteert enkel het eerste lijstitem */
+li:first-child {
+    font-weight: bold;
+    color: darkgreen;
+    background-color: #e0ffe0;
+}
+
+/* #content > section: selecteert enkel sections direct onder #content */
+#content > section {
+    border: 2px dashed blue;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e7f0ff;
+}
+
+/* tr:nth-child(odd): selecteert oneven rijen in tabel */
+tr:nth-child(odd) {
+    background-color: #29a86d;
+}
+
+/* section:nth-child(3n+1): selecteert secties 1, 4, 7,... */
+section:nth-child(3n+1) {
+    background-color: #fff3cd;
+}

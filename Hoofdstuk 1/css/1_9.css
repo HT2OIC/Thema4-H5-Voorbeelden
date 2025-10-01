@@ -1,0 +1,9 @@
+/* Class selector: selecteert klasse message*/
+.message {
+    background-color: #fff3cd;
+    border: 2px solid #ffecb5;
+    padding: 10px;
+    border-radius: 8px;
+    color: #664d03;
+    font-style: italic;
+}

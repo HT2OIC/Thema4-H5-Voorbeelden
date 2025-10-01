@@ -1,0 +1,7 @@
+/* Groeperen: input, hover op link in #mainmenu, paragraaf met class formpar */
+input, 
+#mainmenu a:hover, 
+p.formpar {
+    color: red;
+    font-weight: bold;
+}

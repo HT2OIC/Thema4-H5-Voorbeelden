@@ -1,0 +1,8 @@
+/* Multiple class selector: Selecteert elementen met 2 klasses: message en error*/
+.message.error {
+    background-color: #f8d7da;
+    border: 2px solid #f5c2c7;
+    color: #842029;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Positionele selectors </title>
+    <link rel="stylesheet" href="css/1_15.css">
+</head>
+<body>
+    <h1>CSS Geavanceerde Selectors</h1>
+    <p>Deze paragraaf wordt gestyled omdat hij direct na de h1 staat.</p>
+    <p>Deze paragraaf NIET, want er staat een andere p tussen.</p>
+
+    <h2>Lijstvoorbeeld</h2>
+    <ul>
+        <li>Eerste item (wordt geselecteerd)</li>
+        <li>Tweede item</li>
+        <li>Derde item</li>
+    </ul>
+
+    <h2>Content en Sections</h2>
+    <div id="content">
+        <section>Sectie 1 (direct child → gestyled)</section>
+        <div>
+            <section>Sectie 2 (genest in div → NIET gestyled door > selector)</section>
+        </div>
+        <section>Sectie 3 (direct child → gestyled)</section>
+        <section>Sectie 4 (direct child én ook nth-child(3n+1))</section>
+    </div>
+
+    <h2>Tabelvoorbeeld</h2>
+    <table>
+        <tr><th>Naam</th><th>Score</th></tr>
+        <tr><td>Alice</td><td>90</td></tr>
+        <tr><td>Bob</td><td>85</td></tr>
+        <tr><td>Charlie</td><td>70</td></tr>
+        <tr><td>Dana</td><td>95</td></tr>
+    </table>
+
+    <h2>Secties met nth-child</h2>
+    <main>
+        <section>Sectie A (1 → geselecteerd)</section>
+        <section>Sectie B (2)</section>
+        <section>Sectie C (3)</section>
+        <section>Sectie D (4 → geselecteerd)</section>
+        <section>Sectie E (5)</section>
+        <section>Sectie F (6)</section>
+        <section>Sectie G (7 → geselecteerd)</section>
+    </main>
+</body>
+</html>

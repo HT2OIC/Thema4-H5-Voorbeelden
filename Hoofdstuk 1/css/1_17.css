@@ -1,0 +1,19 @@
+/* Tag-class selector */
+p.message {
+    background-color: #fff3cd;
+    padding: 5px;
+    border-left: 4px solid orange;
+}
+
+/* Tag-id selector */
+nav#mainmenu {
+    background-color: #e0f7fa;
+    border: 2px solid teal;
+    padding: 10px;
+}
+
+/* Id-class selector */
+#mainmenu.open {
+    background-color: lightgreen;
+    border-color: darkgreen;
+}

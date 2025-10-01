@@ -1,0 +1,13 @@
+/* Geneste selectors */
+#leftcol p {
+    background-color: #e0e0ff;
+    padding: 5px;
+    border-left: 3px solid navy;
+}
+
+nav li.active a {
+    background-color: yellow;
+    color: red;
+    padding: 2px 5px;
+    border-radius: 3px;
+}

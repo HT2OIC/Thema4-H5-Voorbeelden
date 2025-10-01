@@ -1,0 +1,22 @@
+a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* Pseudo-class: focus */
+textarea:focus {
+    border: 3px solid blue;
+    background-color: #eef;
+}
+
+/* Pseudo-class: invalid email */
+input[type=email]:invalid {
+    border: 2px solid red;
+    background-color: #fdd;
+}
+
+/* Pseudo-class: disabled input */
+input:disabled {
+    background-color: #ccc;
+    color: #666;
+}
