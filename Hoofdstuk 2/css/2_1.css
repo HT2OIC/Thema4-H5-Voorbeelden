@@ -1,0 +1,24 @@
+body {
+    display: flex; /* zie onderdeel 4. layout */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ body > section {
+    padding: 20px;
+    width: 80%;
+ }
+ body > aside {
+    background-color: #ffe;
+    padding: 20px;
+    width: 20%;
+ }
+ img { 
+    max-width: 500px;
+    width: 100%;
+ }
+ blockquote {
+    background-color: #eee;
+    border: 4px dashed #666;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+ }

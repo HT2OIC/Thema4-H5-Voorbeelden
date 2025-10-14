@@ -1,0 +1,20 @@
+p {
+    color: #5a4c34;
+    background-color: #f0ede3;
+    font-size: 14px;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: bold; 
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    padding: 5px 10px;
+    text-shadow: 2px 2px 15px #666;
+    text-transform: capitalize;
+ }
+ a {
+    text-decoration: none; /* onderlijnen of niet; werkt alleen bij links */
+    color: #aa8938;
+ }
+ a:hover {
+    text-decoration: underline;
+ }

@@ -1,0 +1,10 @@
+html, body{
+    height: 100%;
+}
+body {
+    background-color: #ccc; /* achtergrondkleur */
+    background-image: url(code.jpg); /* link naar de afbeelding */
+    background-position: left bottom; /* ook: center, waarde(n) in px of %... */
+    background-repeat: no-repeat; /* ook: repeat, repeat-x, repeat-y */
+    background-size: 100% 100%; /* ook: cover, contain, waarde(n) in px of %... */
+}

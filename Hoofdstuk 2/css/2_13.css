@@ -1,0 +1,9 @@
+ul {
+    list-style: none;
+}
+li + li::before {
+    content: " | ";
+}  
+li {
+    display: inline-block; /* verwijder dit en kijk wat gebeurt */
+}

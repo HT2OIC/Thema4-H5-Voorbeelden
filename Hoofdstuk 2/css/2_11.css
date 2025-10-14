@@ -1,0 +1,12 @@
+a.button {
+    background-color: beige;
+    border: 2px solid #ccc;   
+    color: #333;
+    display: block; /* verwijder dit en kijk wat gebeurt */
+    height: 40px; /* werkt enkel bij blocklevel */
+    line-height: 40px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px; /* werkt enkel bij blocklevel */
+}          

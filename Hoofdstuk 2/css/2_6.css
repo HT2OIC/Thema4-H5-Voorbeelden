@@ -1,0 +1,11 @@
+div {
+    background-color: #ccc;
+    transition: background 0.5s, width 1s; /* transities */
+    width: 200px;
+}
+ div:hover {
+    background-color: #ee3c87;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    width: 300px;
+}

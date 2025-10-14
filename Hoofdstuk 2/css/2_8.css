@@ -1,0 +1,5 @@
+img {
+    background-color: #eee;
+    transform: rotate(8deg) skewY(15deg);
+    width: 250px;
+}

@@ -1,0 +1,7 @@
+div {
+    background-color: #ccc;
+    width: 200px;
+}
+div:hover {
+    visibility: hidden;
+}
