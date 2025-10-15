@@ -1,0 +1,15 @@
+div {
+    background-color: #eee;
+    border: 5px dotted #900;
+    padding: 20px 40px;
+}
+p {
+    background-color: #ccc;
+    border: 1px solid black;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+/* laatste paragraaf geen margin onder  */
+p:last-child {
+    margin-bottom: 0;
+}           
